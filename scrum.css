@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.titulo{
+    padding:100px 650px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width:150px;
+    
+}
+span{
+    /* margin-top:30px; */
+    font-size:50px;
+    padding: 20px;
+}
+p{
+    /* margin-top:10px; */
+    font-size:30px;
+    display:inline;
+    text-align:center;
+    justify-content: space-between;
+}
+
+.caja2{
+    
+    width:250px;
+    height:40px;
+    padding :0;
+    margin:5px;
+    border:1px solid blue;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    background-color:#5683F6;
+    border-radius: 10px;
+}
+.padre{
+    display:flex;
+    justify-content: center;
+}
+.boton{
+    width:450px;
+}
+h2{
+    color:red;
+    text-align:center;
+
+
+}
+.a1{
+    font-size:20px;
+}
+input[type= "checkbox"]{
+    display:flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+

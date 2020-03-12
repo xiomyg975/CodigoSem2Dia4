@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    width: 100%;
+}
+
+body{
+    border: 3px solid black;
+}
+/* LENGNIKER */
+.contenido{
+    font-family: 'Arial';
+    text-align: left;
+    font-size: 30px;
+}
+.contenido1{
+    color: red;
+    margin-top: 20px;
+    text-align: left;
+    width: 50%;
+    font-size: 35px;
+    margin-left: 18%;
+    
+    
+}
+.contenido3{
+    margin: 50px 350px;
+}
+
+.contenido2{
+    display: flex;
+}
+.video{
+    margin-right: 18%;
+    width: 40%;
+}
+/* DEYBIT */
+table{
+    font-size: 30px;
+    font-family: 'Arial';
+    width: 50%;
+    border: 1px solid black;
+    margin: 50px 20%;
+    
+}
+td,tr{
+    border: 1px solid black;
+}
+.cabeza{
+    background-color: yellow;
+}
+span{
+    font-size: 20px;
+    padding-right:50px;
+    font-weight: bold;
+    float: left;
+    margin-top:20px ;
+}
+.imagen{
+    float:left;
+    margin-top:10px ;
+   
+}
+/* XIOMARA */
+footer{
+    border:2px solid black;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    height: 40px;
+    margin: 0px auto;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.texto{
+    justify-content :space-between;   
+}
+/* RONALDO */
+header{
+    display: flex;
+    font-size: 40px;
+  
+  }
+
+  .logocodigo{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .derecha{
+    float: right;
+  }
+  .barra{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    align-items: center;
+    
+  }
+  div{
+    margin-right:0 ;
+  }

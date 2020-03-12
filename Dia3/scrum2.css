@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+/* XIOMARA */
+.contenedor{
+    border:2px solid black;
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content :space-between;
+    /* float:left; */
+}
+.logo{
+    flex-basis:200px;
+    flex-grow:1;
+    display:flex;
+    align-items:center;
+}
+.logo i{
+    color: blue ; 
+    width: 100px;
+}
+.logo span{
+    font-size:26px;
+    color:black;
+}
+#codigo{
+    position: absolute;
+    float: right;
+    right: 0;
+}
+/* LENGNIKER */
+section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.btn_video{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+/* XIOMARA HEADER 2 */
+.titulo{
+    padding:100px 500PX;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#imagentitulo{
+    
+    width:150px;
+}
+.registroU{
+    margin-top:30px;
+    font-size:50px;
+}
+.caja{
+    
+    width:380px;
+    height:80px;
+    padding :5px;
+    margin:5px;
+    background-color:#CAE9B8;
+    border:1px solid black;
+    margin:auto;
+    border-radius: 20px;
+    color:gray;
+    text-align:left;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;       
+}
+/* RONALDO Y DEYBIT */
+table{
+    border: 1px solid black;
+    margin: auto;
+    }
+    td, tr{
+    border: 1px solid gray;
+    /* width: 100px;
+    height: 100px; */
+    }
+    .button{
+    /* margin: auto; */
+    height: 40px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    }
+    .pinferior{
+    text-align: left;
+    margin-left: 185px;
+    }
+    .small{
+        text-align: center;
+        font-size: 20px;
+        color: gray;
+        margin: 5px 5px;
+    }
+/* XIOMARA  FOOTER*/
+span{
+    font-size: 20px;
+    padding-right:50px;
+    font-weight: bold;
+    float: left;
+    margin-top:20px ;
+}
+.imagen{
+    float:left;
+    margin-top:10px ;
+   
+}
+footer{
+    border:2px solid black;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    height: 40px;
+    margin: 0px auto;
+    padding-bottom: 35px;
+    text-align: center;
+}

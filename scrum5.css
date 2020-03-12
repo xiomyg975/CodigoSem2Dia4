@@ -1,0 +1,10 @@
+.titulo5{
+    padding:100px 650px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    font-size: 60px;
+}
